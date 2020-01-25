@@ -1,0 +1,7 @@
+/**
+ * IndividualStoryContent
+ */
+public class IndividualStoryContent {
+
+    
+}
