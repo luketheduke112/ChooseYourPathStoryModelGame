@@ -4,13 +4,13 @@
 import java.util.ArrayList;
 public class IndividualScenario {
     String scenarioTitleParent;
-    int optionCount;
     public  ArrayList <IndividualOption> options;
+    public  ArrayList <IndividualStoryContent> storyBlurbs;
 
-    IndividualScenario(String scenarioTitleParent, int optionCount) {
+    IndividualScenario(String scenarioTitleParent) {
         this.scenarioTitleParent = scenarioTitleParent;
-        this.optionCount = optionCount;
         this.options = new ArrayList<IndividualOption>();
+        this.storyBlurbs = new ArrayList<IndividualStoryContent>();
     }
 
     
